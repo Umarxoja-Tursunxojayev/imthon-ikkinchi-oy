@@ -1,0 +1,115 @@
+.intro{
+    position: relative;
+    display: flex;
+    gap: 129px;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 1000px;
+    
+    .intro-left{
+        position: absolute;
+        width: 1205px !important;
+        height: 781px;
+        left: -500px;
+        background: #CBE4E8;
+
+        img{
+            position: absolute;
+            right: 0;
+            top: 35px;
+        }
+    }
+
+    .intro-right{
+        position: absolute;
+        right: 0;
+        top: 125px;
+        
+        h2{
+            display: block;
+            color: #000;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 1.44px;
+            margin-bottom: 24px ;
+        }
+
+        p{
+            color: #000;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; 
+            margin-bottom: 48px;
+        }
+
+        label{
+            display: flex;
+            flex-direction: column;
+
+            input{
+                border: none;
+                margin-bottom: 40px;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.299);
+                padding: 10px 0;
+            }
+        }
+
+        .button1{
+            width: 100%;
+            display: block;
+            padding: 16px 0;
+            color:  #FAFAFA;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; 
+            border-radius: 4px;
+            background: #DB4444;
+            border: none;
+            margin-bottom: 16px;
+        }
+
+        .button2{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            padding: 12px 0;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; 
+            margin-bottom: 34px;
+        }
+
+        div{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            align-items: start;
+
+            p{
+                color:  #000;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; 
+            }
+
+            a{
+                border-bottom: 1px solid rgba(0, 0, 0, 0.321);
+                color:  #000;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px; 
+            }
+        }
+        
+    }
+}

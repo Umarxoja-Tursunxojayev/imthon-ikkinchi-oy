@@ -1,0 +1,258 @@
+.title{
+    margin-top: 80px;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; 
+    margin-bottom: 80px;
+}
+
+.produkt-wrapper{
+    align-items: start;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 30px;
+
+    .produkt-left{
+        li{
+            border-radius: 4px;
+            background:#F5F5F5;
+            width: 170px;
+            height: 138px;
+            padding: 12px 25px;
+            margin-bottom: 16px;
+        }
+    }
+
+    .produkt-right{
+        width: 400px;
+
+        h3{
+            color:  #000;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px; 
+            letter-spacing: 0.72px;
+            margin-bottom: 18px;
+        }
+
+        ul{
+            display: flex;
+            gap: 5px;
+            margin-bottom: 17px;
+            li:last-child{
+                color:  #000;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 21px; 
+
+                span{
+                    color: #0F6;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 21px; 
+                };
+            }
+        }
+
+        h4{
+            color:  #000;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; 
+            letter-spacing: 0.72px;
+            margin-bottom: 25px;
+        }
+
+        .p-first{
+            color: #000;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.305);
+            margin-bottom: 25px;
+        }
+
+       .radio{
+        display: flex;
+        gap: 25px;
+        margin-bottom: 30px;
+       }
+
+       .razmer{
+        color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21px;
+        display: flex;
+        gap: 25px;
+        align-items: baseline;
+            ul{
+                display: flex;
+                align-items: start;
+                gap: 15px;
+                margin-bottom: 25px;
+
+                li{
+                    text-align: center;
+                    border: 1px solid rgba(0, 0, 0, 0.329);
+                    padding: 6px 10px;
+                    border-radius: 4px;
+                    cursor: pointer;
+
+                    &:hover{
+                        background-color: #DB4444;
+                        color: white;
+                        transition: all 0.3 linear;
+                    }
+                }
+            }
+       }
+
+       .buynow{
+            display: flex;
+            justify-content: space-between;
+            gap: 16px;
+            color:  #000;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            align-items: start;
+            line-height: 28px; 
+            
+            div{
+                padding: 10px 8px;
+                span{
+                    height: 100%;
+                    width: 100%;
+                    border: 1px solid black;
+                    padding: 10px 8px;
+                    cursor: pointer;
+                    border-radius: 6px;
+
+
+                    &:hover{
+                        border-radius: 6px;
+                        background:  #DB4444;;
+                        color: white;
+
+                        svg{
+                            path{
+                                stroke: white;
+                                fill: white;
+                                border: none    ;
+                            }
+                        }
+                    }
+                }
+
+                
+            }
+
+            button{
+                padding: 10px 48px;
+                color: black;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px; 
+
+                &:hover{
+                    background-color: #DB4444;
+                    color: white;
+                    transition: all 0.3s linear ;
+                    border: none;
+                }
+            }
+       }
+
+       .yurak{
+            margin-bottom: 40px;
+            border: 1px solid black;
+           padding: 5px;
+           border-radius: 10px;
+
+           &:hover{
+            transition: all 0.3s linear;
+            background-color: #DB4444;
+            span{
+                svg{
+                    path{
+                        stroke: white;
+                        fill: white;
+                    }
+                }
+            }
+           }
+       }
+
+       .delevery-wrapper{
+        margin-bottom: 140px;
+        height: 180px;
+            .wrapper--box1{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                padding: 24px 15px;
+                border: 1px solid black;
+                div{
+                    h4{
+                        color: #000;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        margin: 0;
+                        line-height: 24px; 
+                    }
+
+                    P{
+                        color: #000;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 18px; 
+                        text-decoration-line: underline;
+                    }
+                }
+            }
+
+            .wrapper--box2{
+                display: flex;
+                align-items: center;
+                gap: 16px;
+                padding: 24px 16px;
+                border: 1px solid black;
+
+                div{
+                    h4{
+                        color: #000;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        margin: 0;
+                        line-height: 24px; 
+                    }
+
+                    P{
+                        color: #000;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 18px; 
+                        text-decoration-line: underline;
+                    }
+                }
+            }
+
+        }
+    }
+}
